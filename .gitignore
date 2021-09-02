@@ -1,0 +1,4 @@
+workspace.code-workspace
+.terraform*
+terraform*
+id_rsa
