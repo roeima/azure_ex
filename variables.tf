@@ -5,13 +5,13 @@ variable "instance_size" {
 }
 
 variable "location" {
-    description = "Azure Region"
-    type = string
-    default = "eastus"
+  description = "Azure Region"
+  type        = string
+  default     = "eastus"
 }
 
 variable "resource_group_name" {
-    description = "Resource Group Name"
-    type = string
-    default = "int4"
+  description = "Resource Group Name"
+  type        = string
+  default     = "int4"
 }

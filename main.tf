@@ -68,7 +68,7 @@ resource "azurerm_windows_virtual_machine" "public_vm" {
   location              = var.location
   resource_group_name   = var.resource_group_name
   network_interface_ids = [azurerm_network_interface.public_vm_nic.id]
-  size                  = "Standard_D2s_v3"
+  size                  = var.instance_size
 
   admin_username = "adminuser"
   admin_password = "P@ssword123!@#"
